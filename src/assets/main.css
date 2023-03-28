@@ -1,5 +1,21 @@
 @import './base.css';
 
+body {
+    @apply bg-pladea bg-cover bg-fixed;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@-moz-document url-prefix() {
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

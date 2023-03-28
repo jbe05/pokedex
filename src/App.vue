@@ -5,6 +5,11 @@ export default {
   components: {
     Header,
   },
+  data() {
+    return {
+      limit: 20,
+    }
+  },
 }
 </script>
 

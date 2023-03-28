@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "colorthief": "^2.4.0",
+    "vibrant": "^0.0.1",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },

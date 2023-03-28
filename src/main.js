@@ -4,4 +4,10 @@ import {router} from './routes.js';
 
 import './assets/main.css'
 
-createApp(App).use(router).mount('#app')
+const app = createApp(App);
+
+let limit = 20;
+app.provide('limit', limit);
+
+app.use(router);
+app.mount('#app');
